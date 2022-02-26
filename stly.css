@@ -1,12 +1,4 @@
-.blue {
-  color: blue;
-}
-.underline {
-  text-decoration: underline;
-}
-.underline:not(.blue) {
-  color: red;
-}
-.underline:not(.blue):not(li) {
-  color: inherit;
+ul {
+  list-style: none;
+  padding: 0;
 }
